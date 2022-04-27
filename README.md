@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a project that generates a quote in HTML, JSON and XML format.
+This application is also deployed to heroku at [https://houzz-responder.herokuapp.com/quote](https://houzz-responder.herokuapp.com/quote).
 
-Things you may want to cover:
+### Running the application
+ ```ruby
+$ bundle
+$ rails s
+```
 
-* Ruby version
+### Endpoints
 
-* System dependencies
+- `/quotes[.json|.xml]`
 
-* Configuration
+    returns a famous quote in the specified format
 
-* Database creation
+### To run tests
+`$ rspec`
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
