@@ -1,0 +1,429 @@
+Started GET "/quote" for ::1 at 2022-04-27 22:04:27 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/quote"):
+  
+actionpack (5.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/quote" for ::1 at 2022-04-27 22:04:57 +0545
+Processing by FilesController#quote as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NameError (uninitialized constant FilesController::CSV):
+  
+app/controllers/files_controller.rb:3:in `quote'
+Started GET "/quote" for ::1 at 2022-04-27 22:05:30 +0545
+Processing by FilesController#quote as HTML
+Completed 500 Internal Server Error in 0ms
+
+
+  
+NameError (uninitialized constant CSV):
+  
+app/controllers/files_controller.rb:4:in `quote'
+Started GET "/quote" for ::1 at 2022-04-27 22:07:10 +0545
+Processing by FilesController#quote as HTML
+Completed 500 Internal Server Error in 76ms
+
+
+  
+NameError (undefined local variable or method `get_random_row' for #<FilesController:0x00007fd889b9e8f8>):
+  
+app/controllers/files_controller.rb:4:in `quote'
+Started GET "/quote" for ::1 at 2022-04-27 22:07:20 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 275755ms (Views: 2879.1ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:17:05 +0545
+Processing by FilesController#quote as HTML
+Completed 500 Internal Server Error in 49637ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/files_controller.rb:5:in `quote'
+Started GET "/quote" for ::1 at 2022-04-27 22:23:15 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12818ms (Views: 15.3ms)
+
+
+Started GET "/quote.json" for ::1 at 2022-04-27 22:23:32 +0545
+Processing by FilesController#quote as JSON
+Completed 200 OK in 2180ms (Views: 0.4ms)
+
+
+Started GET "/quote.xml" for ::1 at 2022-04-27 22:23:42 +0545
+Processing by FilesController#quote as XML
+Completed 200 OK in 1513ms (Views: 0.1ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:26:57 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 21.3ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:27:08 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 28ms (Views: 12.9ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:27:15 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 43ms (Views: 19.2ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:27:33 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 49ms (Views: 24.2ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:27:48 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 11.4ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:28:11 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 33ms (Views: 14.6ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:28:53 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 12.5ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:29:19 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 41ms (Views: 22.1ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:29:32 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 10.7ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:29:49 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 10.5ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:30:02 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 29ms (Views: 17.6ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:30:11 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 28ms (Views: 14.1ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:30:12 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 38ms (Views: 21.2ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:30:13 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 29ms (Views: 14.2ms)
+
+
+Started GET "/quote.json" for ::1 at 2022-04-27 22:30:16 +0545
+Processing by FilesController#quote as JSON
+Completed 200 OK in 12ms (Views: 0.1ms)
+
+
+Started GET "/quote.xml" for ::1 at 2022-04-27 22:30:22 +0545
+Processing by FilesController#quote as XML
+Completed 200 OK in 17ms (Views: 0.1ms)
+
+
+Started GET "/quote.xml" for ::1 at 2022-04-27 22:30:44 +0545
+Processing by FilesController#quote as XML
+Completed 200 OK in 12ms (Views: 0.1ms)
+
+
+Started GET "/quote.xml" for ::1 at 2022-04-27 22:31:08 +0545
+Processing by FilesController#quote as XML
+Completed 200 OK in 25ms (Views: 0.1ms)
+
+
+Started GET "/quote.xml" for ::1 at 2022-04-27 22:31:11 +0545
+Processing by FilesController#quote as XML
+Completed 200 OK in 16ms (Views: 0.1ms)
+
+
+Started GET "/quote.xml" for ::1 at 2022-04-27 22:34:00 +0545
+Processing by FilesController#quote as XML
+Completed 200 OK in 7ms (Views: 0.1ms)
+
+
+Started GET "/quote.xml" for ::1 at 2022-04-27 22:34:02 +0545
+Processing by FilesController#quote as XML
+Completed 200 OK in 14ms (Views: 0.1ms)
+
+
+Started GET "/quote.xml" for ::1 at 2022-04-27 22:34:03 +0545
+Processing by FilesController#quote as XML
+Completed 200 OK in 15ms (Views: 0.1ms)
+
+
+Started GET "/quote.xml" for ::1 at 2022-04-27 22:34:14 +0545
+Processing by FilesController#quote as XML
+Completed 200 OK in 13ms (Views: 0.1ms)
+
+
+Started GET "/quote.xml" for ::1 at 2022-04-27 22:34:15 +0545
+Processing by FilesController#quote as XML
+Completed 200 OK in 17ms (Views: 0.1ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:34:36 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 19.7ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:34:37 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 40ms (Views: 19.2ms)
+
+
+Started GET "/quote.json" for ::1 at 2022-04-27 22:34:44 +0545
+Processing by FilesController#quote as JSON
+Completed 200 OK in 17ms (Views: 0.2ms)
+
+
+Started GET "/quote.json" for ::1 at 2022-04-27 22:34:57 +0545
+Processing by FilesController#quote as JSON
+Completed 200 OK in 12ms (Views: 0.1ms)
+
+
+Started GET "/quote.json" for ::1 at 2022-04-27 22:34:58 +0545
+Processing by FilesController#quote as JSON
+Completed 200 OK in 13ms (Views: 0.1ms)
+
+
+Started GET "/quote.json" for ::1 at 2022-04-27 22:35:02 +0545
+Processing by FilesController#quote as JSON
+Completed 200 OK in 14ms (Views: 0.2ms)
+
+
+Started GET "/quote.json" for ::1 at 2022-04-27 22:35:03 +0545
+Processing by FilesController#quote as JSON
+Completed 200 OK in 18ms (Views: 0.2ms)
+
+
+Started GET "/quote.json" for ::1 at 2022-04-27 22:35:30 +0545
+Processing by FilesController#quote as JSON
+Completed 200 OK in 13ms (Views: 0.1ms)
+
+
+Started GET "/quote.json" for ::1 at 2022-04-27 22:35:32 +0545
+Processing by FilesController#quote as JSON
+Completed 200 OK in 12ms (Views: 0.1ms)
+
+
+Started GET "/quote.json" for ::1 at 2022-04-27 22:35:33 +0545
+Processing by FilesController#quote as JSON
+Completed 200 OK in 11ms (Views: 0.1ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:35:35 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 31ms (Views: 13.9ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:35:36 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 22.0ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:35:36 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 47ms (Views: 21.7ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:35:37 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 27ms (Views: 13.6ms)
+
+
+Started GET "/quote.html" for ::1 at 2022-04-27 22:35:41 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 48ms (Views: 18.0ms)
+
+
+Started GET "/quote.xml" for ::1 at 2022-04-27 22:35:44 +0545
+Processing by FilesController#quote as XML
+Completed 200 OK in 24ms (Views: 0.1ms)
+
+
+Started GET "/quote.xml" for ::1 at 2022-04-27 22:35:45 +0545
+Processing by FilesController#quote as XML
+Completed 200 OK in 11ms (Views: 0.1ms)
+
+
+Started GET "/quote.xml" for ::1 at 2022-04-27 22:35:45 +0545
+Processing by FilesController#quote as XML
+Completed 200 OK in 21ms (Views: 0.1ms)
+
+
+Started GET "/quote.xml" for ::1 at 2022-04-27 22:35:46 +0545
+Processing by FilesController#quote as XML
+Completed 200 OK in 25ms (Views: 0.1ms)
+
+
+Started GET "/quote.xml" for ::1 at 2022-04-27 22:35:46 +0545
+Processing by FilesController#quote as XML
+Completed 200 OK in 13ms (Views: 0.1ms)
+
+
+Started GET "/quor" for ::1 at 2022-04-27 22:57:35 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/quor"):
+  
+actionpack (5.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/quote" for ::1 at 2022-04-27 22:57:38 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 40ms (Views: 19.4ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:57:39 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 40ms (Views: 17.8ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:57:47 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 118ms (Views: 104.8ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:57:48 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 10.2ms)
+
+
+Started GET "/quote.json" for ::1 at 2022-04-27 22:57:51 +0545
+Processing by FilesController#quote as JSON
+Completed 200 OK in 12ms (Views: 0.2ms)
+
+
+Started GET "/quote.xml" for ::1 at 2022-04-27 22:57:54 +0545
+Processing by FilesController#quote as XML
+Completed 200 OK in 21ms (Views: 0.1ms)
+
+
+Started GET "/quote" for ::1 at 2022-04-27 22:57:58 +0545
+Processing by FilesController#quote as HTML
+  Rendering files/quote.html.erb within layouts/application
+  Rendered files/quote.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 14.5ms)
+
+
